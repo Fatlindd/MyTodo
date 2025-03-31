@@ -74,7 +74,7 @@ def main():
         orientation="horizontal"
     )
 
-    # 🔐 Load Google credentials from Streamlit secrets
+    # Load credentials from Streamlit secrets
     service_account_info = st.secrets["gcp_service_account"]
     if not isinstance(service_account_info, dict):
         service_account_info = dict(service_account_info)
