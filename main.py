@@ -63,7 +63,7 @@ class TodoApp:
 
 # Main function for the Streamlit UI
 def main():
-    st.set_page_config(page_title="Todo Web App", layout="centered")
+    st.set_page_config(page_title="Todo Web App", layout="wide")
 
     selected = option_menu(
         menu_title="",
